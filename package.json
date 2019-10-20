@@ -1,0 +1,32 @@
+{
+  "name": "joaozitopolo.github.io",
+  "version": "1.0.0",
+  "description": "about me",
+  "main": "index.js",
+  "scripts": {
+    "server": "http-server .",
+    "watch": "gulp watch",
+    "start": "concurrently --kill-others \"npm run watch\" \"npm run server\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://joaozitopolo@github.com/joaozitopolo/joaozitopolo.github.io.git"
+  },
+  "keywords": [
+    "about",
+    "me"
+  ],
+  "author": "joaozitopolo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/joaozitopolo/joaozitopolo.github.io/issues"
+  },
+  "devDependencies": {
+    "concurrently": "^4.1.2",
+    "gulp": "^4.0.2",
+    "gulp-data": "^1.3.1",
+    "gulp-nunjucks-render": "^2.2.3",
+    "http-server": "^0.11.1"
+  },
+  "homepage": "https://github.com/joaozitopolo/joaozitopolo.github.io#readme"
+}
